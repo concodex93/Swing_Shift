@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.conor.SwingShift">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden"
+        android:icon="@mipmap/swingshifticon"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustResize|stateHidden">
+        <activity
+            android:name=".Login.SwipeLogRegActivity"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- <service android:name=".MyServices" /> -->
+        <!-- <receiver android:name=".Timer.UIUpdater" -->
+        <!-- android:exported="false"/> -->
+        <activity android:name=".SwipeView.SwipeMainActivity" />
+        <activity android:name=".ShiftActivity" />
+        <activity android:name=".RefreshActivity" />
+        <activity
+            android:name=".Refresh_Home_Acitivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity android:name=".MainMenu.MainMenuActivity" />
+        <activity android:name=".Login.SplashActivity" />
+        <activity android:name=".SwipeView.SingleRowActivity" />
+        <activity
+            android:name=".SwipeView.SwingInMotionActivity"
+            android:label="@string/title_activity_swing_in_motion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MenuButton.mSettingActivity" />
+        <activity android:name=".MenuButton.HelpMeActivity" />
+        <activity android:name=".WalkThru.IntroActivity">
+
+        </activity>
+    </application>
+
+</manifest>

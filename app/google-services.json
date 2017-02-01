@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "777727178697",
+    "firebase_url": "https://employee-data-cb.firebaseio.com",
+    "project_id": "employee-data-cb",
+    "storage_bucket": "employee-data-cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777727178697:android:df4f73daf6ae8cb1",
+        "android_client_info": {
+          "package_name": "com.example.conor.SwingShift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777727178697-agjgc25k756nrlefuomujt5s3bctc5pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW_yDxNCIoxK1NpwIa9T09B6yb9CXEJLg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
